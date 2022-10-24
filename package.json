@@ -28,7 +28,7 @@
         "ffi-napi": "3.1.0",
         "fsevents": "^2.3.1",
         "ljswitchboard-ljm_driver_constants": "^1.0.5",
-        "ljswitchboard-modbus_map": "^1.0.4",
+        "ljswitchboard-modbus_map": "git+https://github.com/hgmelectronics/ljswitchboard-modbus_map-kipling#main",
         "q": "1.5.1",
         "ref-napi": "3.0.1",
         "semver": "^7.1.1"
