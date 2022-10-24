@@ -26,7 +26,6 @@
     "dependencies": {
         "async": "3.2.0",
         "ffi-napi": "3.1.0",
-        "fsevents": "^2.3.1",
         "ljswitchboard-ljm_driver_constants": "^1.0.5",
         "ljswitchboard-modbus_map": "git+https://github.com/hgmelectronics/ljswitchboard-modbus_map-kipling#main",
         "q": "1.5.1",
@@ -39,6 +38,9 @@
         "diff": ">=3.5.0",
         "mocha": "^8.2.1",
         "rewire": "4.0.1"
+    },
+    "optionalDependencies": {
+        "fsevents": "^2.3.1"
     },
     "script_notes": "to run a script w/o using npm test, use npm run [script name]",
     "scripts": {
